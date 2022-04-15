@@ -10,7 +10,7 @@ $ENV{'LANG'}='de_DE.UTF-8';
 setlocale(LC_TIME, 'de_DE.UTF-8');
 
 # path to database
-$rrdb='../../class_hmc/count.rrd';
+$rrdb='../count.rrd';
 
 $query=new CGI;
 #$query=new CGI("type=consumweek");

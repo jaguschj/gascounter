@@ -9,7 +9,7 @@ $ENV{'LANG'}='de_DE.UTF-8';
 setlocale(LC_ALL, 'de_DE.UTF-8');
 
 # path to database
-$rrd='../../class_hmc/count.rrd';
+$rrd='../count.rrd';
 
 # force to always create image from rrd 
 #$force=1;
